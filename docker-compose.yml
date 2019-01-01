@@ -15,7 +15,7 @@ services:
       - database__connection__user=ghostdb
       - database__connection__password=secret
       - database__connection__database=ghostdb
-      - VIRTUAL_HOST=0.0.0.0:8080
+      - VIRTUAL_HOST=0.0.0.0:8080 
       - VIRTUAL_PORT=2368
     depends_on:
       - db
